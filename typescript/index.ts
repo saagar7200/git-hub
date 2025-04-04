@@ -143,8 +143,8 @@ getEl<IUser>([user]);
 // wraper(8); //[8]
 // wraper<number>([10]); // [10]
 
-interface Contetnt<T> {
-	content: T;
+interface Contetnt<U> {
+	content: U;
 }
 
 const obj: Contetnt<string> = {
