@@ -113,12 +113,12 @@ const emp1: Emp = {
 
 // emp1.name = "";
 
-type Status = "success" | "failed";
+// type Status = "success" | "failed";
 
-let status1: Status;
+// let status1: Status;
 
-status1 = "success";
-status1 = "failed";
+// status1 = "success";
+// status1 = "failed";
 
 // generic
 
