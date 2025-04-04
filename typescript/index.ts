@@ -143,8 +143,8 @@ function wraper<T>(value: T | T[]): T[] {
 wraper(8); //[8]
 wraper<number>([10]); // [10]
 
-interface Contetnt<T> {
-	content: T;
+interface Contetnt<X> {
+	content: X;
 }
 
 const obj: Contetnt<string> = {
