@@ -106,10 +106,10 @@
 
 // 
 // var 
-// var x = 10
-//  x ="hello"
+var x = 10
+ x ="hello"
 
-//  console.log(x)
+ console.log(x)
 
 // let 
 // let x =10
