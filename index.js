@@ -31,8 +31,8 @@ console.log('Good morning 2')
 
 // // // let const var
 
-//  var y = 10
-//  y =30
+ var y = 10
+ y =30
 // // // x = 'good morning'
 //  console.log(y)
 
