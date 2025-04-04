@@ -133,15 +133,15 @@ getEl<IUser>([user]);
 // fuc(8) => [8]
 // fuc('hello') => [hello]
 
-function wraper<T>(value: T | T[]): T[] {
-	if (Array.isArray(value)) {
-		return value;
-	}
-	return [value];
-}
+// function wraper<T>(value: T | T[]): T[] {
+// 	if (Array.isArray(value)) {
+// 		return value;
+// 	}
+// 	return [value];
+// }
 
-wraper(8); //[8]
-wraper<number>([10]); // [10]
+// wraper(8); //[8]
+// wraper<number>([10]); // [10]
 
 interface Contetnt<T> {
 	content: T;
